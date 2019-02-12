@@ -46,7 +46,6 @@ function compareArrays(arr1, arr2) {
 }
 const expectedOutput = [4, 40, 14, 84];
 const functionArg = [[1, 2, 3, 4], [10, 20, 30, 40], [11, 12, 13, 14], [51, 62, 73, 84]];
-console.log(largestNumbers(functionArg))
 assert(compareArrays(expectedOutput, largestNumbers(functionArg)))
 
 console.log('All tests passed')
