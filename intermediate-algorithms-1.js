@@ -37,7 +37,6 @@ assert(0 === sumAll([0, 0]), sumAll([0, 0]))
 // ["andesite", "grass", "dirt", "pink wool", "dead shrub"], ["diorite", "andesite", "grass", "dirt", "dead shrub"] => ["diorite", "pink wool"]
 // ["diorite", "andesite", "grass", "dirt", "pink wool", "dead shrub"], ["diorite", "andesite", "grass", "dirt", "dead shrub"] => ["pink wool"]
 
-// Version 1
 function diffArray(arr1, arr2) {
   //filter differences in first arr
   const onlyInArr1 = arr1.filter(element => !arr2.includes(element));
